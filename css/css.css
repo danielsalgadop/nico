@@ -1,4 +1,20 @@
 body {
-  background-image: url("img_tree.gif");
-  /* background-color: #cccccc; */
+  background-image: url("../img/fondo.jpg");
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+    height: 1000px;
+}
+
+.bienvenida{
+    /*TODO no me gusta alinear asi, molaria hacerlo 100% con bootstrap*/
+    position: relative;
+    top:176px;
 }
