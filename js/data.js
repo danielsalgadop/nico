@@ -1,0 +1,1 @@
+let data  = "Como su nombre sugiere, la dieta de la manzana es un régimen de alimentación en el que esta fruta cobra un rol importante";
