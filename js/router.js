@@ -12,7 +12,7 @@ function fillAlert(alertSelector) {
 }
 
 function fillAlertHeading(headingContent) {
-    return '<h4 class="alert-heading">' + headingContent + '</h4>';
+    return `<h4 class="alert-heading">${headingContent}</h4>`;
 }
 
 function fillAlertContent() {
