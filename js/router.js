@@ -16,7 +16,7 @@ function fillAlertHeading(headingContent) {
 }
 
 function fillAlertContent() {
-    return '<div><img src="img/manzana.png"></div><p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>';
+    return '<div><img id="dragable-manzana" src="img/manzana.png"></div><p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>';
 }
 
 function fillAlertFinal() {
