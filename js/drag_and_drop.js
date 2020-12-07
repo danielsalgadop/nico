@@ -14,18 +14,22 @@
 
 
 function drag(ev){
-    console.log('drag started');
-    console.log(ev.target.id);
+    // console.log('drag started');
+    ev.dataTransfer.setData('product',ev.target.id);
 }
 
-
+// 
 function drop(ev){
+    console.log('en drop');
+    setCalories(5);
     ev.preventDefault();
-    // console.log(ev.dataTransfer)
+    console.log(ev.dataTransfer.getData('product'));
+
 }
 
 // no entiendo porque tiene que existir este
 function allowDrop(ev) {
     console.log('drop started');
     ev.preventDefault();
-  }
+    // console.log(ev.dataTransfer)
+}
