@@ -6,10 +6,10 @@
 // }
 
 
-// let carritoElement = document.getElementById("carrito");
+// let dietaElement = document.getElementById("dieta");
 
-// carritoElement.onmouseover = function () { 
-    // console.log('onmouseover CARRITO');
+// dietaElement.onmouseover = function () { 
+    // console.log('onmouseover dieta');
 // };
 
 
