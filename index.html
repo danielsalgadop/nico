@@ -35,8 +35,8 @@
               aria-expanded="false">Frutas</a>
             <div class="dropdown-menu" aria-labelledby="dropdownId">
               <ul>
-                <li onclick="fillAlert(document.getElementById('main'))">Manzana</li>
-                <li>Melon</li>
+                <li onclick="fillAlert(document.getElementById('main'),'manzana')">Manzana</li>
+                <li onclick="fillAlert(document.getElementById('main'),'sandia')">Sandia</li>
               </ul>
               <!-- <a class="dropdown-item" href="#">Manzana</a> -->
               <!-- <a class="dropdown-item" href="#">Melón</a> -->
@@ -70,7 +70,7 @@
     <script src="js/dieta.js"></script>
     <script src="js/drag_and_drop.js"></script>
     <script>
-      fillAlert(document.getElementById('main'),'manzana');
+      // fillAlert(document.getElementById('main'),'manzana');
       // console.log(data.manzana);
     </script>
 </body>
