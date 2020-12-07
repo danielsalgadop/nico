@@ -18,16 +18,18 @@ function drag(ev){
     ev.dataTransfer.setData('product',ev.target.id);
 }
 
-// 
+// esto se parece a onmouseover
 function drop(ev){
     console.log('en drop');
     setCalories(5);
+    let hcArray = ['A1','B12'];
+    setVitamins(hcArray);
     ev.preventDefault();
     console.log(ev.dataTransfer.getData('product'));
 
 }
 
-// no entiendo porque tiene que existir este
+// esto se parace a contrario de onclick
 function allowDrop(ev) {
     console.log('drop started');
     ev.preventDefault();
