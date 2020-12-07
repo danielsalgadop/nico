@@ -26,7 +26,7 @@ function fillAlertContent(product) {
 }
 
 function fillAlertCaloriesAndVitamins(product) {
-    return '<p class="mb-0"><ul><li>Calories = '+product.calories+'</li><li>Vitamins = '+product.vitamins+'</li></ul></p>';
+    return '<p class="mb-0"><ul><li>Calorias = '+product.calories+'</li><li>Vitaminas = '+product.vitamins+'</li></ul></p>';
 }
 
 

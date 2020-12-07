@@ -1,12 +1,12 @@
-function setCalories(number){
+function renderCalories(number){
     caloriesSelector = document.getElementById('calories');
     actualCaloriesAsInt = parseInt(caloriesSelector.textContent);
     caloriesSelector.innerHTML = actualCaloriesAsInt + number;
 }
 
-function setVitamins(newVitaminsAsArray) {
+function renderVitamins(newVitaminsAsArray) {
 
-    // console.log('en setVitamins');
+    // console.log('en renderVitamins');
     vitaminsSelector = document.getElementById('vitamins');
 
     actualVitaminsAsArray = vitaminsSelector.textContent.split(',');
