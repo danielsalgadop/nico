@@ -25,6 +25,8 @@ Las fotos pueden ser arrastradas hacía la parte de "DIETA". Sus Calorías se su
 - js/
     - data.js: de aqui salen los valores por pantall
     - router.js: rellena un 'alert' y lo inyecta (innerHtml) al selector que llega por parámetro en esta web siempre es id=main
+    - dieta.js: elemento destino del Drop, rellena Vitaminas y Calorías
+    - drag_and_drop.js
 
 
 ## Instalación
