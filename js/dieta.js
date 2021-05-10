@@ -6,7 +6,6 @@ function renderCalories(number){
 
 function renderVitamins(newVitaminsAsArray) {
 
-    // console.log('en renderVitamins');
     vitaminsSelector = document.getElementById('vitamins');
 
     actualVitaminsAsArray = vitaminsSelector.textContent.split(',');

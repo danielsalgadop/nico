@@ -1,11 +1,7 @@
-page = 'manzana';
-
-
 function fillAlert(alertSelector,productName) {
 
     // using string (productName) as property
     let product = data[productName];
-    console.log(product);
 
     alert = '<div class="alert alert-success" role="alert">';
     alert += fillAlertHeading(productName);
