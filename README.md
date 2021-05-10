@@ -1,6 +1,6 @@
-# Página de Daniel Salgado
+# Página comida Saludable
 
-Web hecha para mi hijo Nicolás que está estudianod la dieta saludable. También es para curso de [Geekshub Academy - Frontend React 2020-11](https://bootcamp.geekshubsacademy.com/online/frontend-react/). NO TIENE datos actualizados ni reales, todos los valores de vitaminas o calorías son INVENTADOS.
+Web diseñada por Nicolás que está estudiando la dieta saludable y hecha por Daniel Salgado. Además es el segundo entregable del curso de [Geekshub Academy - Frontend React 2020-11](https://bootcamp.geekshubsacademy.com/online/frontend-react/). NO TIENE datos actualizados ni reales, todos los valores de vitaminas o calorías son INVENTADOS.
 
 ## Descripción
 
