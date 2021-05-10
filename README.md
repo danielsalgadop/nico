@@ -33,7 +33,7 @@ Las fotos pueden ser arrastradas hacía la parte de "DIETA". Sus Calorías se su
 
 Clonar para bajarte el código
 ```
-git clone https://github.com/danielsalgadop/geekshub_front
+git clone https://github.com/danielsalgadop/nico
 ```
 
 Abrir index.html con tu navegador favorito
